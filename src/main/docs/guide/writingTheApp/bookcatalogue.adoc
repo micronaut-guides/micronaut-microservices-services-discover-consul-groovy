@@ -30,8 +30,8 @@ Write a test:
 include::{sourceDir}/bookcatalogue/src/test/groovy/example/micronaut/bookcatalogue/BooksControllerSpec.groovy[]
 ----
 
-<2> It is easy to create HTTP requests with a fluid API.
-<3> Parse easily JSON into Groovy objects.
+<1> It is easy to create HTTP requests with a fluid API.
+<2> Parse easily JSON into Groovy objects.
 
 Edit `application.yml`
 
