@@ -22,10 +22,10 @@ dependencies {
     compileOnly "io.micronaut:micronaut-inject-groovy"
     implementation platform("io.micronaut:micronaut-bom:$micronautVersion")
     implementation "io.micronaut:micronaut-runtime-groovy"
-    //tag::validator[]
     implementation "io.micronaut:micronaut-http-server-netty"
-    //end::validator[]
+    //tag::validator[]
     implementation "io.micronaut:micronaut-validation"
+    //end::validator[]
     implementation "io.micronaut:micronaut-http-client"
 
     //tag::discoveryclient[]
